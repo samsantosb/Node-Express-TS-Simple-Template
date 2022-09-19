@@ -10,9 +10,11 @@
     "@types/jest": "^29.0.2",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^18.7.18",
+    "@types/supertest": "^2.0.12",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
-    "mongoose": "^6.3.1"
+    "mongoose": "^6.3.1",
+    "supertest": "^6.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",

@@ -10,11 +10,6 @@ export function mongoConnect() {
       console.log("ERROR: Connection to MongoDB failed", error);
     })
 
-    .on("close", () => {
-      console.log("Connection to MongoDB ended");
-      process.exit(1);
-    })
-
     .once("open", () => {
       const infos = connections;
 
@@ -29,5 +24,6 @@ export function mongoConnect() {
 }
 
 export function mongoDisconnect() {
+  console.log("Closing MongoDB connection");
   connection.close();
 }
