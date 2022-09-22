@@ -1,8 +1,8 @@
-## NODE CSV READER JS
+## NODE EXPRESS SIMPLE TEMPLATE
 
 ## Qual a função desse Repositório ?
 
-1. Esse repositório é um template para Scripts com NodeJs
+1. Esse repositório é um template de API com NodeJs
 
 ## Sumário
 
